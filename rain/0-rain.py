@@ -1,5 +1,25 @@
 #!/usr/bin/python3
 
+  """
+    Calculate the total amount of rainwater retained between walls.
+
+    Args:
+        walls (List[int]): A list of non-negative integers representing the heights of walls.
+
+    Returns:
+        int: The total amount of rainwater retained.
+
+    Note:
+        - If the input list is empty, the function returns 0.
+        - The ends of the list (before index 0 and after index walls[-1]) are not considered walls.
+
+    Example:
+        >>> walls = [0, 1, 0, 2, 0, 3, 0, 4]
+        >>> rain(walls)
+        6
+
+    """
+
 def rain(walls):
     if not walls:
         return 0
