@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-  """
+def rain(walls):
+
+    """
     Calculate the total amount of rainwater retained between walls.
 
     Args:
@@ -19,8 +21,7 @@
         6
 
     """
-
-def rain(walls):
+  
     if not walls:
         return 0
 
